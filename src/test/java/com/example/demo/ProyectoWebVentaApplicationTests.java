@@ -1,5 +1,9 @@
 package com.example.demo;
 
+
+
+import static org.junit.Assert.assertTrue;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,7 +11,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class ProyectoWebVentaApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void fallo() {
+		assertTrue(false);
 	}
 
 }
