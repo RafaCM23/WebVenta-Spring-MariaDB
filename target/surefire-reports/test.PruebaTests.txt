@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
-Test set: test.PruebaTest
+Test set: test.PruebaTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.927 s <<< FAILURE! - in test.PruebaTest
-test2  Time elapsed: 0.012 s  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! - in test.PruebaTests
+test2  Time elapsed: 0.006 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at test.PruebaTest.test2(PruebaTest.java:25)
+	at test.PruebaTests.test2(PruebaTests.java:17)
 
